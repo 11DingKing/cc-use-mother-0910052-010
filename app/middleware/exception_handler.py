@@ -20,6 +20,9 @@ ERROR_MESSAGES = {
     "NOT_FOUND": "请求的资源不存在",
     "TRADING_ERROR": "交易操作失败，请检查账户状态和订单参数",
     "VALUE_ERROR": "参数值不符合要求",
+    "PERMISSION_DENIED": "权限核验未通过：授权不存在、已撤回或已过生效区间",
+    "APPROVAL_PENDING": "操作尚待审批，批准后才能执行",
+    "APPROVAL_CONFLICT": "审批区间与现有授权冲突，需要显式裁决",
     "INTERNAL_ERROR": "服务器内部错误，我们正在处理中",
 }
 
